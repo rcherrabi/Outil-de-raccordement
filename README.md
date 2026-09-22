@@ -20,12 +20,14 @@ Dans tout projet de parc photovoltaïque, le raccordement au réseau électrique
 Pour s'adapter à la maturité et aux formats de chaque étude, l'opérateur configure les extrémités du tracé via 4 modes au choix :   
 
 **📍 1. Point de départ (Origine du projet)**
+
 📁 Fichier local : import direct de périmètres aux formats vectoriels standards (KML, SHP, GPKG) avec reprojection automatique en Lambert-93.   
 🗄️ Projet en base de données : sélection directe des polygones de clôture hébergés sur le serveur spatial PostgreSQL/PostGIS de l'entreprise.   
 🖱️ Pointage interactif : clic direct sur le canevas cartographique QGIS avec accrochage (snapping) automatique à l'axe routier le plus proche.   
 ✍️ Saisie de coordonnées numériques : encodage manuel des coordonnées en Lambert 93 (X/Y) ou en WGS 84 (Lon/Lat) avec conversion instantanée.   
 
 **🎯 2. Point d'arrivée (Destination du raccordement)**
+
 🤖 Poste RTE le plus proche (Automatique) : scanne les postes sources dans un rayon paramétrable (ex. 20 km) et identifie la cible optimale.   
 🏷️ Sélection ciblée par nom : filtrage textuel et choix direct du poste source dans le référentiel national.   
 🖱️ Point cliqué sur l'interface : idéal pour simuler un piquage sur une ligne HTA existante repérée sur le terrain.   
