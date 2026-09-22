@@ -47,7 +47,9 @@ Pour s'adapter à la maturité et aux formats de chaque étude, l'opérateur con
 L'outil offre une grande finesse d'arbitrage pour sécuriser la faisabilité foncière et technique :   
 
 🛡️ Maîtrise du foncier privé : seuillage strict du nombre maximal de parcelles privées cadastrées pouvant être traversées, afin de limiter la complexité des négociations et des servitudes amiables.   
+
 🚫 Zones d'exclusion personnalisées : possibilité de matérialiser des polygones d'évitement strict (zones de travaux, conflits de voirie, sensibilités locales) pour forcer l'algorithme à recalculer un contournement.
+
 ✏️ Édition manuelle & Forçage de passage :
         Ajout direct de tronçons manuels pour combler d'éventuelles discontinuités du réseau filaire.
         Forçage de passage sur des axes spécifiques préconisés par les gestionnaires de réseau.
