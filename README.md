@@ -36,7 +36,7 @@ Pour s'adapter à la maturité et aux formats de chaque étude, l'opérateur con
 ## 🖥️ Interface de commande
 
 ### Console de pilotage PyQt
-![Interface RTE_connect](inetrface_RTE.png)
+![Interface RTE_connect](interface_RTE.png)
 
 ---
 
